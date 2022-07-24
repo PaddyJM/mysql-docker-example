@@ -62,7 +62,11 @@ VALUES (1,
 		"TO1 3WN");
 		
 INSERT INTO products ( product_name )
-VALUES ( "paper" );
+VALUES ( "small paper" ),
+        ( "medium paper"),
+        ( "large paper");
 
 INSERT INTO order_lines ( order_id, product_id, quantity )
-VALUES ( 1, 1, 9000 );
+VALUES ( 1, 1, 9000 ),
+        ( 1, 3, 7),
+        ( 1, 2, 42);
